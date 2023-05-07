@@ -2,8 +2,11 @@
 
 namespace FilmesApi.Models;
 
-public class Filme
+public class FilmesModel
+
 {
+    [Key]
+    [Required]
     public int Id { get; set; }
     [Required(ErrorMessage = "O titulo do file é obrigatório")]
     public string? Titulo { get; set; }

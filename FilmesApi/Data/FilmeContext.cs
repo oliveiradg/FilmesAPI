@@ -11,7 +11,7 @@ namespace FilmesApi.Data
 
         }
 
-        public DbSet<Filme> Filmes { get; set; }
+        public DbSet<FilmesModel> Filmes { get; set; }
         
 
         }
